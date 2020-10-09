@@ -1,0 +1,50 @@
+.questionTitle {
+  grid-area: title;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.questionOptions {
+  grid-area: options;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.earnedMoney {
+  display: none;
+  grid-area: money;
+}
+
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    'title title'
+    'options options';
+}
+
+@media only screen and (min-width: 959px) {
+  .container {
+    grid-template-areas:
+      'title  money '
+      'options  money ';
+  }
+
+  .earnedMoney {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .questionTitle {
+    align-items: flex-start;
+    justify-content: start;
+  }
+
+  .questionOptions,
+  .questionTitle {
+    padding: 50px;
+  }
+}

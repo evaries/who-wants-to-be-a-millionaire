@@ -1,0 +1,33 @@
+/* TODO: set button to pressed during timeout */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.options {
+  width: 100%;
+}
+.option {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.confirmButton {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 959px) {
+  .option {
+    min-width: 50%;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .confirmButton {
+    width: auto;
+  }
+}

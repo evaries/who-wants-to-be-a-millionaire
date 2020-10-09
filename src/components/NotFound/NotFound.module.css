@@ -1,0 +1,43 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 116%;
+}
+.finalInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+.handImage {
+  transform: rotate(180deg);
+  flex: 1;
+}
+
+@media only screen and (min-width: 959px) {
+  .container {
+    flex-direction: row;
+  }
+  .finalInfo {
+    padding: 0;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .title {
+    margin-bottom: 64px;
+    font-size: 56px;
+    text-align: start;
+  }
+}

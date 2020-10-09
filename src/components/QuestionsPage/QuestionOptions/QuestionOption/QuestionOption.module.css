@@ -1,0 +1,21 @@
+.option {
+  width: 100%;
+  height: 100%;
+  stroke: #d0d0d8;
+}
+.option:hover {
+  stroke: #ffac70;
+  cursor: pointer;
+}
+.selected {
+  fill: #fff3eb;
+  stroke: #ffac70;
+}
+.selected.correct {
+  fill: #e6faea;
+  stroke: #e6faea;
+}
+.selected.wrong {
+  fill: #fdeeed;
+  stroke: #fdeeed;
+}

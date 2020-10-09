@@ -1,0 +1,123 @@
+[
+  {
+    "questionText": "What is the capital of France?",
+    "cost": 500,
+    "answerOptions": [
+      { "id": "A", "answerText": "New York", "isCorrect": false },
+      { "id": "B", "answerText": "London", "isCorrect": false },
+      { "id": "C", "answerText": "Paris", "isCorrect": true },
+      { "id": "D", "answerText": "Dublin", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Who is CEO of Tesla?",
+    "cost": 1000,
+    "answerOptions": [
+      { "id": "A", "answerText": "Jeff Bezos", "isCorrect": false },
+      { "id": "B", "answerText": "Elon Musk", "isCorrect": true },
+      { "id": "C", "answerText": "Bill Gates", "isCorrect": false },
+      { "id": "D", "answerText": "Tony Stark", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "The iPhone was created by which company?",
+    "cost": 2000,
+    "answerOptions": [
+      { "id": "A", "answerText": "Apple", "isCorrect": true },
+      { "id": "B", "answerText": "Intel", "isCorrect": false },
+      { "id": "C", "answerText": "Amazon", "isCorrect": false },
+      { "id": "D", "answerText": "Microsoft", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "How many Harry Potter books are there?",
+    "cost": 4000,
+    "answerOptions": [
+      { "id": "A", "answerText": "1", "isCorrect": false },
+      { "id": "B", "answerText": "4", "isCorrect": false },
+      { "id": "C", "answerText": "6", "isCorrect": false },
+      { "id": "D", "answerText": "8", "isCorrect": true }
+    ]
+  },
+
+  {
+    "questionText": "Light Year is related to",
+    "cost": 8000,
+    "answerOptions": [
+      { "id": "A", "answerText": "energy", "isCorrect": false },
+      { "id": "B", "answerText": "speed", "isCorrect": false },
+      { "id": "C", "answerText": "distance", "isCorrect": true },
+      { "id": "D", "answerText": "intensity", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Which of these African countries is situated south of the equator?",
+    "cost": 16000,
+    "answerOptions": [
+      { "id": "A", "answerText": "Ethiopia", "isCorrect": false },
+      { "id": "B", "answerText": "Nigeria", "isCorrect": false },
+      { "id": "C", "answerText": "Zambia", "isCorrect": true },
+      { "id": "D", "answerText": "Chad", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "When and where was weightlifting introduced in Olympics?",
+    "cost": 32000,
+    "answerOptions": [
+      { "id": "A", "answerText": "1986 at Athens", "isCorrect": true },
+      { "id": "B", "answerText": "1988 at Seoul", "isCorrect": false },
+      { "id": "C", "answerText": "924 at St. Louis", "isCorrect": false },
+      { "id": "D", "answerText": "1908 at London", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "The American General who led the revolt against the British and declared American independence was",
+    "cost": 64000,
+    "answerOptions": [
+      { "id": "A", "answerText": "George Washington", "isCorrect": true },
+      { "id": "B", "answerText": "Bill Clinton", "isCorrect": false },
+      { "id": "C", "answerText": "George Bush", "isCorrect": false },
+      { "id": "D", "answerText": "None of the above", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the second most common gas in the air?",
+    "cost": 125000,
+    "answerOptions": [
+      { "id": "A", "answerText": "Nitrogen", "isCorrect": false },
+      { "id": "B", "answerText": "Oxygen", "isCorrect": true },
+      { "id": "C", "answerText": "Water", "isCorrect": false },
+      { "id": "D", "answerText": "Helium", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Karl Marx's ideology advocated",
+    "cost": 250000,
+    "answerOptions": [
+      { "id": "A", "answerText": "a classed unique society", "isCorrect": false },
+      { "id": "B", "answerText": "a united society", "isCorrect": false },
+      { "id": "C", "answerText": "a classed society", "isCorrect": true },
+      { "id": "D", "answerText": "None of the above", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Of the blood groups A, B, AB and O, which one is transfused into a person whose blood group is A?",
+    "cost": 500000,
+    "answerOptions": [
+      { "id": "A", "answerText": "Group A only", "isCorrect": false },
+      { "id": "B", "answerText": "Group B only", "isCorrect": false },
+      { "id": "C", "answerText": "Group A and O", "isCorrect": true },
+      { "id": "D", "answerText": "Group AB only", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Hamid Karzai was chosen president of Afghanistan in?",
+    "cost": 1000000,
+    "answerOptions": [
+      { "id": "A", "answerText": "2000", "isCorrect": false },
+      { "id": "B", "answerText": "2001", "isCorrect": false },
+      { "id": "C", "answerText": "2002", "isCorrect": true },
+      { "id": "D", "answerText": "2003", "isCorrect": false }
+    ]
+  }
+]
