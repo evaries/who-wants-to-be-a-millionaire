@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/who-wants-to-be-a-millionaire/static/css/main.ae11cc76.chunk.css",
-    "main.js": "/who-wants-to-be-a-millionaire/static/js/main.b5052e55.chunk.js",
-    "main.js.map": "/who-wants-to-be-a-millionaire/static/js/main.b5052e55.chunk.js.map",
-    "runtime-main.js": "/who-wants-to-be-a-millionaire/static/js/runtime-main.4284c8ac.js",
-    "runtime-main.js.map": "/who-wants-to-be-a-millionaire/static/js/runtime-main.4284c8ac.js.map",
-    "static/js/2.84cb5997.chunk.js": "/who-wants-to-be-a-millionaire/static/js/2.84cb5997.chunk.js",
-    "static/js/2.84cb5997.chunk.js.map": "/who-wants-to-be-a-millionaire/static/js/2.84cb5997.chunk.js.map",
-    "index.html": "/who-wants-to-be-a-millionaire/index.html",
-    "precache-manifest.34b6e5f526a4b2389d26fc7e1af2b990.js": "/who-wants-to-be-a-millionaire/precache-manifest.34b6e5f526a4b2389d26fc7e1af2b990.js",
-    "service-worker.js": "/who-wants-to-be-a-millionaire/service-worker.js",
-    "static/css/main.ae11cc76.chunk.css.map": "/who-wants-to-be-a-millionaire/static/css/main.ae11cc76.chunk.css.map",
-    "static/js/2.84cb5997.chunk.js.LICENSE.txt": "/who-wants-to-be-a-millionaire/static/js/2.84cb5997.chunk.js.LICENSE.txt",
-    "static/media/hand1.svg": "/who-wants-to-be-a-millionaire/static/media/hand1.276b2ba6.svg"
+    "main.css": "/game-start/static/css/main.ae11cc76.chunk.css",
+    "main.js": "/game-start/static/js/main.b5052e55.chunk.js",
+    "main.js.map": "/game-start/static/js/main.b5052e55.chunk.js.map",
+    "runtime-main.js": "/game-start/static/js/runtime-main.57808dec.js",
+    "runtime-main.js.map": "/game-start/static/js/runtime-main.57808dec.js.map",
+    "static/js/2.84cb5997.chunk.js": "/game-start/static/js/2.84cb5997.chunk.js",
+    "static/js/2.84cb5997.chunk.js.map": "/game-start/static/js/2.84cb5997.chunk.js.map",
+    "index.html": "/game-start/index.html",
+    "precache-manifest.f03da6551fb9cfb589d101190f3b4128.js": "/game-start/precache-manifest.f03da6551fb9cfb589d101190f3b4128.js",
+    "service-worker.js": "/game-start/service-worker.js",
+    "static/css/main.ae11cc76.chunk.css.map": "/game-start/static/css/main.ae11cc76.chunk.css.map",
+    "static/js/2.84cb5997.chunk.js.LICENSE.txt": "/game-start/static/js/2.84cb5997.chunk.js.LICENSE.txt",
+    "static/media/hand1.svg": "/game-start/static/media/hand1.276b2ba6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4284c8ac.js",
+    "static/js/runtime-main.57808dec.js",
     "static/js/2.84cb5997.chunk.js",
     "static/css/main.ae11cc76.chunk.css",
     "static/js/main.b5052e55.chunk.js"
