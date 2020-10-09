@@ -13,6 +13,7 @@
 .earnedMoney {
   display: none;
   grid-area: money;
+  background-color: #fff;
 }
 
 .container {
