@@ -8,7 +8,7 @@ const QuestionOptions = ({ options, handleAnswerOptionClick, answerChecked }) =>
   const [optionState, setOptionState] = useState('');
 
   const selectAnswer = (option) => setSelectedAnswer(option);
-  const handleConfirmClick = () => handleAnswerOptionClick(selectedAnswer.isCorrect);
+  const handleCorrectAnswer = (isAnswerCorrect) => handleAnswerOptionClick(isAnswerCorrect);
 
   useEffect(() => setSelectedAnswer(null), [options]);
   useEffect(() => {
@@ -25,13 +25,15 @@ const QuestionOptions = ({ options, handleAnswerOptionClick, answerChecked }) =>
       <div className={styles.options}>
         {options.map((option) => (
           <div className={styles.option} key={option.id}>
-            <QuestionOption option={option} selectAnswer={selectAnswer} isSelected={selectedAnswer?.id === option.id} optionState={optionState} />
+            <QuestionOption option={option} handleCorrectAnswer={handleCorrectAnswer} 
+            selectAnswer={selectAnswer} isSelected={selectedAnswer?.id === option.id} 
+            optionState={optionState} />
           </div>
         ))}
       </div>
-      <button type='button' className={styles.confirmButton} disabled={!selectedAnswer} onClick={handleConfirmClick}>
+      {/* <button type='button' className={styles.confirmButton} disabled={!selectedAnswer} onClick={handleConfirmClick}>
         Confirm
-      </button>
+      </button> */}
     </div>
   );
 };

@@ -3,12 +3,16 @@ import cx from 'classnames';
 import PropTypes from 'prop-types';
 import styles from './QuestionOption.module.css';
 
-const QuestionOption = ({ option, selectAnswer, optionState, isSelected }) => {
+const QuestionOption = ({ option, selectAnswer, optionState, isSelected, handleCorrectAnswer }) => {
+  const handleAnswerClick =()=>{
+    handleCorrectAnswer(option.isCorrect)
+    selectAnswer(option)
+  }
   return (
     <>
       <svg
         className={cx(styles.option, styles[optionState], isSelected ? styles.selected : null)}
-        onClick={() => selectAnswer(option)}
+        onClick={() => handleAnswerClick()}
         viewBox='0 0 405 72'
         xmlns='http://www.w3.org/2000/svg'>
         <path d='M388 36L405 36' />
@@ -17,7 +21,7 @@ const QuestionOption = ({ option, selectAnswer, optionState, isSelected }) => {
         <text textAnchor='start' y='40' x='50' fill='#FF8B37'>
           {option.id}
         </text>
-        <text textAnchor='start' y='40' x='67' fill='#000' stroke='none'>
+        <text textAnchor='start' y='40' x='75' fill='#000' stroke='none'>
           {option.answerText}
         </text>
       </svg>
@@ -26,8 +30,9 @@ const QuestionOption = ({ option, selectAnswer, optionState, isSelected }) => {
 };
 
 QuestionOption.propTypes = {
-  option: PropTypes.shape({ answerText: PropTypes.string.isRequired, id: PropTypes.string.isRequired }).isRequired,
+  option: PropTypes.shape({ answerText: PropTypes.string.isRequired, id: PropTypes.string.isRequired, isCorrect:PropTypes.bool.isRequired }).isRequired,
   selectAnswer: PropTypes.func.isRequired,
+  handleCorrectAnswer: PropTypes.func.isRequired,
   isSelected: PropTypes.bool.isRequired,
   optionState: PropTypes.string.isRequired,
 };
