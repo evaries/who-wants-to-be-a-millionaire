@@ -8,6 +8,9 @@ button {
   font-size: 20px;
   color: white;
   cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
 }
 button:hover {
   background: #ffac70;
